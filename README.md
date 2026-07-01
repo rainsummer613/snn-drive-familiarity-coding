@@ -1,7 +1,7 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14639677.svg)](https://zenodo.org/doi/10.5281/zenodo.14639677)
 
-## Spike Synchrony Reliably Disentangles Stimulus Saliency and Familiarity
-This is a repository for the paper **When Firing Rate Falls Short: Spike Synchrony Reliably Disentangles Stimulus Saliency and Familiarity**. 
+## Spike Synchrony Reliably Disentangles Input Drive and Familiarity
+This is a repository for the paper **When Firing Rate Falls Short: Ensemble Synchrony Reliably Disentangles Input Drive and Familiarity**. 
 This repository contains code to run experiments and analyze spiking neural network models that encode known (familiar) patterns as recurrent excitatory ensembles, and use firing rate and spike synchrony to decode familiar versus new inputs from firing activity.
 
 ### Models
@@ -29,11 +29,11 @@ The **src** folder contains the source code for the model:
 - `utils.py` contains additional helper functions.
 
 The main folder has scripts for running all simulations and analyses:
-- `run_v1.py` runs the simulation for main experiments with familiarity detection under changing input saliency by the V1 model; saves the results as *csv* files.
-- `plot_v1_main_results.py` plots the familiarity detection performance of the V1 model under different input saliency variability.
+- `run_v1.py` runs the simulation for main experiments with familiarity detection under changing input drive by the V1 model; saves the results as *csv* files.
+- `plot_v1_main_results.py` plots the familiarity detection performance of the V1 model under different input drive variability.
 - `plot_v1_connectivity.py` plots the example V1 model connectivity.
-- `plot_v1_activity.py` plots spike trains for four input regimes: high saliency+high familiarity, high saliency+low familiarity, low saliency+high familiarity, low saliency+low familiarity.
-- `run_amn.py` runs the simulation for main experiments with familiarity detection under changing input saliency by the AMN with different connectivity parameters (the sparsity of within-pattern excitatory and cross-pattern inhibitory connections); saves the results as *csv* files.
-- `plot_amn_main_results.py` plots the familiarity detection performance of the AMN under different input saliency variability.
-- `plot_amn_activity.py` plots spike trains for four input regimes: high saliency+high familiarity, high saliency+low familiarity, low saliency+high familiarity, low saliency+low familiarity.
-- `plot_amn_performance.py` plots the familiarity detection and pattern classification performance of the AMN under highest input saliency variability, for different connectivity parameters (the sparsity of within-pattern excitatory and cross-pattern inhibitory connections) and the number of familiar patterns.
+- `plot_v1_activity.py` plots spike trains for four input regimes: strong drive+high familiarity, strong drive+low familiarity, weak drive+high familiarity, weak drive+low familiarity.
+- `run_amn.py` runs the simulation for main experiments with familiarity detection under changing input drive by the AMN with different connectivity parameters (the sparsity of within-pattern excitatory and cross-pattern inhibitory connections); saves the results as *csv* files.
+- `plot_amn_main_results.py` plots the familiarity detection performance of the AMN under different input drive variability.
+- `plot_amn_activity.py` plots spike trains for four input regimes: strong drive+high familiarity, strong drive+low familiarity, weak drive+high familiarity, weak drive+low familiarity.
+- `plot_amn_performance.py` plots the familiarity detection and pattern classification performance of the AMN under highest input drive variability, for different connectivity parameters (the sparsity of within-pattern excitatory and cross-pattern inhibitory connections) and the number of familiar patterns.

@@ -1,7 +1,7 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14639677.svg)](https://zenodo.org/doi/10.5281/zenodo.14639677)
 
-## Spike Synchrony Reliably Disentangles Input Drive and Familiarity
-This is a repository for the paper **When Firing Rate Falls Short: Ensemble Synchrony Reliably Disentangles Input Drive and Familiarity**. 
+## Ensemble Synchrony Reliably Disentangles Input Drive and Familiarity
+This is a repository for the paper **Ensemble Synchrony Reliably Disentangles Input Drive and Familiarity**. 
 This repository contains code to run experiments and analyze spiking neural network models that encode known (familiar) patterns as recurrent excitatory ensembles, and use firing rate and spike synchrony to decode familiar versus new inputs from firing activity.
 
 ### Models

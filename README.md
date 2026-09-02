@@ -40,4 +40,4 @@ The main folder has scripts for running all simulations and analyses:
 - `plot_readout_voltage.py` computes and plots the dependency of a theoretical readout neuron's peak voltage on the Rsync level of its incoming inputs.
 
 ### Data
-The `out/` directory contains simulation-generated data used for the paper figures. Subfolder names indicate the corresponding figure(s).
+The `out/` directory contains simulation-generated data used for the paper figures. Subfolder names indicate the corresponding figures.

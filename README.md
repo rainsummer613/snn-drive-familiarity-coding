@@ -14,7 +14,7 @@ This repository contains code to run experiments and analyze spiking neural netw
 3) Familiarity is decoded from population spike trains from either their synchrony (Rsync) or spike count, using binary logistic regression.
 
 ### Installation
-Clone the repository and all libraries from `requirements.txt`.
+Clone the repository and install all packages from `requirements.txt`.
 
 ### The code base
 Brief description of files. 

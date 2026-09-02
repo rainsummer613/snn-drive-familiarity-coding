@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/21994037.svg)](https://doi.org/10.5281/zenodo.21994037)
+[![DOI](https://zenodo.org/badge/1082803554.svg)](https://doi.org/10.5281/zenodo.21994037)
 
 ## Ensemble Synchrony Reliably Disentangles Input Drive and Familiarity
 This is a repository for the paper **Ensemble Synchrony Reliably Disentangles Input Drive and Familiarity**. 

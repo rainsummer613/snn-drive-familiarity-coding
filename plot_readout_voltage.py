@@ -2,6 +2,7 @@ import os
 import sys
 import numpy as np
 import matplotlib.pyplot as plt
+import pandas as pd
 
 paths = [os.path.dirname(os.path.abspath(__file__)),
          os.path.join(os.path.dirname(os.path.abspath(__file__)), 'src')]
@@ -119,3 +120,12 @@ if __name__ == "__main__":
     fig.tight_layout()
     fig.savefig("Fig 8.svg"))
     plt.show()
+
+    df = pd.DataFrame({
+        "rsync_mean": rsync_mean,
+        "rsync_sd": rsync_sd,
+        "peak_mean": peak_mean,
+        "peak_sd": peak_sd,
+    })
+    
+    df.to_csv("results.csv", index=False)

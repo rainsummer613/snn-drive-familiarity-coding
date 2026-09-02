@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/1082803554.svg)](https://doi.org/10.5281/zenodo.21995063)
+[![DOI](https://zenodo.org/badge/21994037.svg)](https://doi.org/10.5281/zenodo.21994037)
 
 ## Ensemble Synchrony Reliably Disentangles Input Drive and Familiarity
 This is a repository for the paper **Ensemble Synchrony Reliably Disentangles Input Drive and Familiarity**. 
@@ -37,6 +37,7 @@ The main folder has scripts for running all simulations and analyses:
 - `plot_amn_main_results.py` plots the familiarity detection performance of the AMN under different input drive variability.
 - `plot_amn_activity.py` plots spike trains for four input regimes: strong drive+high familiarity, strong drive+low familiarity, weak drive+high familiarity, weak drive+low familiarity.
 - `plot_amn_performance.py` plots the familiarity detection and pattern classification performance of the AMN under highest input drive variability, for different connectivity parameters (the sparsity of within-pattern excitatory and cross-pattern inhibitory connections) and the number of familiar patterns.
+- `plot_readout_voltage.py` computes and plots the dependency of a theoretical readout neuron's peak voltage on the Rsync level of its incoming inputs.
 
 ### Data
 The `out/` directory contains simulation-generated data used for the paper figures. Subfolder names indicate the corresponding figure(s).

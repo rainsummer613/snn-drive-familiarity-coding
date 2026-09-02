@@ -39,7 +39,4 @@ The main folder has scripts for running all simulations and analyses:
 - `plot_amn_performance.py` plots the familiarity detection and pattern classification performance of the AMN under highest input drive variability, for different connectivity parameters (the sparsity of within-pattern excitatory and cross-pattern inhibitory connections) and the number of familiar patterns.
 
 ### Data
-Simulation-generated data are stored in the `out/` directory, organized by model:
-- `out/v1/` contains data from the V1 network simulations.
-- `out/amn/` contains data from the associative memory network (AMN) simulations.
-These files contain the simulation outputs underlying the analyses and figures in the manuscript.
+The `out/` directory contains simulation-generated data used for the paper figures. Subfolder names indicate the corresponding figure(s).
